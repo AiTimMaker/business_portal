@@ -1,0 +1,37 @@
+{
+  "communities": [
+    { "id": "all-company", "name": "Toàn công ty", "description": "Thông tin và kết nối chung của Viet Robot", "members": 86, "color": "#167d68", "official": true },
+    { "id": "robotics", "name": "Cộng đồng Robotics", "description": "Chia sẻ kỹ thuật, giáo án và dự án robot", "members": 42, "color": "#386fb3", "official": true },
+    { "id": "teachers", "name": "Giáo viên & Đào tạo", "description": "Trao đổi chuyên môn và kinh nghiệm giảng dạy", "members": 31, "color": "#8a5ab5" },
+    { "id": "culture", "name": "Văn hóa Viet Robot", "description": "Hoạt động nội bộ và những khoảnh khắc đáng nhớ", "members": 79, "color": "#d07b32" },
+    { "id": "marketplace", "name": "Góc chia sẻ", "description": "Hỏi đáp, trao đổi và hỗ trợ đồng nghiệp", "members": 63, "color": "#b24f66" }
+  ],
+  "posts": [
+    {
+      "id": "post-001", "communityId": "all-company", "type": "Thông báo", "pinned": true,
+      "author": { "name": "Nguyễn Hoàng Minh", "email": "minh.nguyen@vietrobot.vn", "title": "Tổng Giám đốc", "initials": "HM" },
+      "content": "Chào mừng mọi người đến với Cộng đồng Viet Robot! Đây sẽ là nơi chúng ta cập nhật thông tin, chia sẻ kiến thức và ghi nhận những đóng góp tuyệt vời từ các thành viên trên toàn hệ thống.",
+      "createdAt": "2026-09-29T01:15:00.000Z", "likedBy": ["linh.pham@vietrobot.vn", "bao.do@vietrobot.vn", "han.tran@vietrobot.vn"], "tags": ["VietRobot", "Thông báo"],
+      "comments": [{ "id": "comment-001", "author": { "name": "Phạm Mỹ Linh", "email": "linh.pham@vietrobot.vn", "title": "Trưởng phòng Nhân sự", "initials": "ML" }, "content": "Rất mong đây sẽ là không gian kết nối tích cực của toàn thể anh chị em!", "createdAt": "2026-09-29T01:42:00.000Z" }]
+    },
+    {
+      "id": "post-002", "communityId": "robotics", "type": "Bài viết",
+      "author": { "name": "Nguyễn Hoàng Phúc", "email": "phuc.nguyen@vietrobot.vn", "title": "Kỹ sư Robotics", "initials": "HP" },
+      "content": "Đội kỹ thuật vừa hoàn thành bộ hướng dẫn hiệu chuẩn cảm biến cho VEX V5. Mọi người có thể xem SOP mới trong kho tài liệu và để lại câu hỏi tại đây nhé.",
+      "createdAt": "2026-09-28T08:30:00.000Z", "likedBy": ["tim.nguyen@vietrobot.vn", "nam.tran@vietrobot.vn"], "tags": ["Robotics", "SOP"], "comments": []
+    },
+    {
+      "id": "post-003", "communityId": "culture", "type": "Khen thưởng",
+      "author": { "name": "Phạm Mỹ Linh", "email": "linh.pham@vietrobot.vn", "title": "Trưởng phòng Nhân sự", "initials": "ML" },
+      "content": "Chúc mừng đội Đào tạo Hà Nội đã hoàn thành vượt chỉ tiêu lớp học tháng 9 với điểm hài lòng 4,9/5. Cảm ơn tinh thần tận tâm và phối hợp tuyệt vời của cả đội! 🎉",
+      "createdAt": "2026-09-27T03:10:00.000Z", "likedBy": ["tim.nguyen@vietrobot.vn", "minh.nguyen@vietrobot.vn", "han.tran@vietrobot.vn", "phuc.nguyen@vietrobot.vn"], "tags": ["Khen thưởng", "Đào tạo"], "comments": []
+    },
+    {
+      "id": "post-004", "communityId": "teachers", "type": "Câu hỏi",
+      "author": { "name": "Trần Gia Hân", "email": "han.tran@vietrobot.vn", "title": "Chuyên viên Đào tạo", "initials": "GH" },
+      "content": "Các thầy cô có hoạt động khởi động nào hiệu quả cho lớp Robotics 8–10 tuổi không? Mình đang tổng hợp ý tưởng cho bộ giáo án mới.",
+      "createdAt": "2026-09-26T07:45:00.000Z", "likedBy": ["linh.pham@vietrobot.vn"], "tags": ["Hỏi đáp", "Giáo án"],
+      "comments": [{ "id": "comment-004", "author": { "name": "Đỗ Quốc Bảo", "email": "bao.do@vietrobot.vn", "title": "Quản lý Dự án", "initials": "QB" }, "content": "Mình gửi bạn trò chơi Robot Simon Says, các lớp trước phản hồi rất tốt.", "createdAt": "2026-09-26T08:20:00.000Z" }]
+    }
+  ]
+}

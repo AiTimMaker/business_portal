@@ -1,0 +1,34 @@
+[
+  {
+    "id": "672ec185-a06e-48c7-9772-f1ae768003a5",
+    "code": "KK-2026-001",
+    "title": "quy 4",
+    "inventoryDate": "2026-09-28",
+    "location": "Văn phòng Hà Nội",
+    "status": "Đang kiểm kê",
+    "createdBy": "Quản trị viên Viet Robot",
+    "createdAt": "2026-09-28T15:43:59.334Z",
+    "items": [
+      {
+        "id": "3228183f-ed05-4a69-bf79-f8181e009ce8",
+        "assetId": "asset-002",
+        "assetCode": "VR-LT-014",
+        "assetName": "Dell Latitude 5440",
+        "expectedLocation": "Văn phòng Hà Nội",
+        "expectedEmployeeId": "emp-003",
+        "expectedEmployeeName": "Phạm Mỹ Linh",
+        "expectedCondition": "Tốt",
+        "result": "Khớp",
+        "assetCategory": "Thiết bị CNTT",
+        "serialNumber": "DL5440-VR14",
+        "actualLocation": "Văn phòng Hà Nội",
+        "actualEmployeeId": "emp-003",
+        "actualEmployeeName": "Phạm Mỹ Linh",
+        "actualCondition": "Tốt",
+        "note": "",
+        "checkedBy": "Quản trị viên Viet Robot",
+        "checkedAt": "2026-09-29T00:01:26.216Z"
+      }
+    ]
+  }
+]
